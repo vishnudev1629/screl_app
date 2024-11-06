@@ -14,7 +14,7 @@ class HomeScreen2 extends ConsumerWidget {
       SnackBar(content: Text(message)),
     );
   }
-
+// ------
   void GetCampaign() async {
     final a = await GetSharedPreferences.getPreview();
     print(a ?? 'No access token found');
